@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "348054336002",
+    "firebase_url": "https://scorecard-75a75.firebaseio.com",
+    "project_id": "scorecard-75a75",
+    "storage_bucket": "scorecard-75a75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348054336002:android:06470005a767070b",
+        "android_client_info": {
+          "package_name": "io.assignment.sportcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348054336002-lpge8arc8utoi7cdsrr21r833q069cjc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.assignment.sportcard",
+            "certificate_hash": "cb763e1525380ef022215b98c41a87dbf3f03e55"
+          }
+        },
+        {
+          "client_id": "348054336002-kak7jf1f1bgj18gmv7fuj1h0mf5oumri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtupDmSUbxrSuLRJ9wjpGvcMxHIkK4jR4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348054336002-kak7jf1f1bgj18gmv7fuj1h0mf5oumri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

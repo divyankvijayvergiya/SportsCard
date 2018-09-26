@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:facebook="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/score_card" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_fb"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:elevation="3dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        facebook:com_facebook_login_text="Continue with Facebook"
+        facebook:logout_text="@string/com_facebook_loginview_log_out_button" />
+    <!--f-->
+    <!-- />-->
+
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="305dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="        Continue with Google"
+        android:textAlignment="2"
+        android:textAllCaps="false" />
+
+</LinearLayout>
